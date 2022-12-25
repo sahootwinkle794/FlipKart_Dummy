@@ -176,7 +176,7 @@
 
     let cartItem = JSON.parse(localStorage.getItem("cart")) || [];
     let userData = JSON.parse(localStorage.getItem("loginUser"))
-    if (userData.length === 0) {
+    if (userData.length === 0 ) {
         alert("Login First !")
         window.location.href = "index.html"
     } else {
